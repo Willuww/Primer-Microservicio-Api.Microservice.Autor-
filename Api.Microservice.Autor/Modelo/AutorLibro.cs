@@ -11,8 +11,8 @@ namespace Api.Microservice.Autor.Modelo
         public DateTime? FechaNacimiento { get; set; }
 
         public ICollection<GradoAcademico> GradosAcademicos { get; set; }
+       
         //seguimiento de registro para los microservices
-
         public string AutorLibroGuid { get; set; }
     }
 }
